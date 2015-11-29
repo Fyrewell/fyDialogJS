@@ -1,0 +1,15 @@
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="fyDialogJS.js"></script>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<body>
+	<p>Hello inputDialog</p>
+
+</body>
+<script>
+
+$( document ).ready(function() {
+	//newADJS_Dialogo('Titulo','Texto', 'confirm', function(resp){$('#DialogInputJS').remove();alert(resp);} );
+	newJS_Dialogo('Titulo','Texto', 'input', function(resp){$('#DialogInputJS').remove();alert(resp);} );
+	//newADJS_Dialogo('Titulo','Texto', 'message', function(resp){$('#DialogInputJS').remove();alert(resp);} );
+});
+</script>
